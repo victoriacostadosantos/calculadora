@@ -1,0 +1,37 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<script  src="js/funcoes.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+			<center>
+			<form name="calc">
+			<input type="text" class="visor" id="visor" name="visor"/>
+			</br><br>
+			<input type="button" class="bot7" id="num7" name="num7" value="7" onclick="insert(7);">
+			<input type="button" class="bot8" id="num8" name="num8" value="8" onclick="insert(8)">
+			<input type="button" class="bot9" id="num9" name="num9" value="9" onclick="insert(9)">
+			<input type="button" class="divisao" id="divisao" name="divisao" value="/" >
+			<input type="button" class="porcento" id="porcento" name="porcento" value="%" >
+			</br></br>	
+			<input type="button" class="bot4" id="num4" name="num4" value="4" onclick="insert(4)">
+			<input type="button" class="bot5" id="num5" name="num5" value="5" onclick="insert(5)">
+			<input type="button" class="bot6" id="num6" name="num6" value="6" onclick="insert(6)">
+			<input type="button" class="vezes" id="multiplo" name="multiplo" value="*" >
+			<input type="button" class="apagar" id="apagar" name="apagar" value="C" onclick="clean()">
+			</br></br>
+			<input type="button"  class="bot1" id="num1" name="num1" value="1" onclick="insert(1)">
+			<input type="button"  class="bot2" id="num2" name="num2" value="2" onclick="insert(2)">
+			<input type="button"  class="bot3" id="num3" name="num3" value="3" onclick="insert(3)">
+			<input type="button"  class="menos" id="menos" name="menos" value="-" onclick="insert(-)">
+			<input type="button" class="igual" id="igual" name="igual" value="=" onclick="insert(=)">
+			</br></br>		
+			<input type="button" class="bot0" id="num0" name="num0" value="0" onclick="insert(0)">
+			<input type="button" class="virgula" id="virgula" name="virgula" value=",">
+			<input type="button" class="mais" id="mais" name="mais" value="+">
+			</center>
+			
+</body>
+</html>
